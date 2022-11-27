@@ -6,7 +6,7 @@ from random import randint
 
 
 def randrgb():
-    return randint(0, 255), randint(0, 255), randint(0, 255), 255
+    return randint(0, 255), randint(0, 255), randint(0, 255)
 
 
 class MainWindow(Window):
